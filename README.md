@@ -2,7 +2,10 @@
 The python wrapper for [epanet-msx](https://github.com/OpenWaterAnalytics/epanet-msx).
 
 # Build
-Ensure the epanet-msx subproject is initialized by running git submodule update --init.
+Ensure the epanet-msx subproject is initialized by running the command:
+```
+git submodule update --init
+```
 Then run and running the following commands (only run clean if you can run bash scripts).
 The following method uses scikit-build to invoke cmake for compiling and linking the shared libaries, and builds a python wheel.
 ```
